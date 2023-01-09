@@ -113,9 +113,9 @@ const startGame = () => {
   });
 
   const ghosts = [
-    new Ghost(5, 188, randomMovement, OBJECT_TYPE.BLINKY),
-    new Ghost(3, 209, randomMovement, OBJECT_TYPE.PINKY),
-    new Ghost(2, 230, randomMovement, OBJECT_TYPE.INKY),
+    new Ghost(5, 189, randomMovement, OBJECT_TYPE.BLINKY),
+    new Ghost(3, 188, randomMovement, OBJECT_TYPE.PINKY),
+    new Ghost(2, 248, randomMovement, OBJECT_TYPE.INKY),
     new Ghost(4, 251, randomMovement, OBJECT_TYPE.CLYDE),
   ];
 
